@@ -40,7 +40,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\Extensions\CollectionExtensions.cs" />
+    <Compile Include="Collections\Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Collections\ITypeList.cs" />
+    <Compile Include="Collections\TypeList.cs" />
+    <Compile Include="Configuration\DicationaryBasedConfig.cs" />
+    <Compile Include="Configuration\IDictionaryBasedConfig.cs" />
+    <Compile Include="Dependency\IIocRegistrar.cs" />
+    <Compile Include="Dependency\ISingletonDependency.cs" />
+    <Compile Include="Dependency\ITransientDependency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runtime\Caching\CacheBase.cs" />
+    <Compile Include="Runtime\Caching\CacheExtensions.cs" />
+    <Compile Include="Runtime\Caching\ICache.cs" />
+    <Compile Include="Runtime\Caching\ICacheManager.cs" />
+    <Compile Include="Runtime\Caching\ITypedCache.cs" />
+    <Compile Include="Runtime\Caching\TypedCacheExtensions.cs" />
+    <Compile Include="Runtime\Caching\TypedCacheWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
