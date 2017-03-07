@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Collections\Extensions\CollectionExtensions.cs" />
     <Compile Include="Collections\Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Collections\Extensions\EnumerableExtensions.cs" />
     <Compile Include="Collections\ITypeList.cs" />
     <Compile Include="Collections\TypeList.cs" />
     <Compile Include="Configuration\DicationaryBasedConfig.cs" />
